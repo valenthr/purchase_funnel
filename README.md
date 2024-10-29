@@ -1,4 +1,4 @@
-# Analysis of google merch shop
+# Analysis of Google Merch Store
 
 All data used is [there](https://console.cloud.google.com/bigquery?ws=!1m5!1m4!4m3!1sbigquery-public-data!2sga4_obfuscated_sample_ecommerce!3sevents_20210131).
 All step-by-step solutions are attached to task numbers
