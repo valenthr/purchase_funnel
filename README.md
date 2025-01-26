@@ -1,11 +1,11 @@
-# Analysis of Google Merch Store
+# E-commerce funnel
 
 All data used is [there](https://console.cloud.google.com/bigquery?ws=!1m5!1m4!4m3!1sbigquery-public-data!2sga4_obfuscated_sample_ecommerce!3sevents_20210131).
 All step-by-step solutions are attached to task numbers
 
-## Tool
+## Tools
 
-BigQuery
+BigQuery, Looker studio
 
 ## Goals
 
@@ -54,3 +54,22 @@ For each unique session:
    Then the value of the correlation coefficient was calculated:
 1. Between engagement and purchase.
 2. Between time of engagement and purchase
+## [Task 5](https://lookerstudio.google.com/reporting/16b6ae28-74d4-4121-bc3d-76bf34d060a8) - final dashboard in Looker Studio
+The dashboard consists of 7 visualizations: 
+1. Visualized sales funnel with conversions to all 7 stages of the funnel from 1 task.
+2. Average time from the beginning of the session to all stages of the funnel.
+3. Dynamics of the number of users and conversions before adding to the basket during the studied period (01.01.2021 - 01.31.2021). 
+4. Dynamics of change in conversion time during the same period.
+5. Conversion to payment for each country.
+6. 5 conversions for the same period:
+  * CR to purchase;
+  * CR to shipping info;
+  * CR to payment info;
+  * CR to cart;
+  * CR to begin checkout.
+<!-- ## Insights and conclusion
+1. Into funnel is 3 main pinpoint areas where users drop off:
+1) CR to viewing item - only 20%. On the second visualization (average time to each stage of funnel) we find the key to reason - average time to this stage is more than 8 minutes.
+Solution - develop more user-friendly interface to make it easier for users to understand.
+2) СR to add payment -->
+
