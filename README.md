@@ -55,7 +55,7 @@ For each unique session:
 1. Between engagement and purchase.
 2. Between time of engagement and purchase
 ## [Task 5](https://lookerstudio.google.com/reporting/16b6ae28-74d4-4121-bc3d-76bf34d060a8) - final dashboard in Looker Studio
-The dashboard consists of 7 visualizations: 
+The dashboard consists of 6 visualizations: 
 1. Visualized sales funnel with conversions to all 7 stages of the funnel from 1 task.
 2. Average time from the beginning of the session to all stages of the funnel.
 3. Dynamics of the number of users and conversions before adding to the basket during the studied period (01.01.2021 - 01.31.2021). 
